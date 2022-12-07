@@ -1,6 +1,9 @@
+body{
+    background-color: blueviolet;
+}
 /*GENERAL STYLE*/
 a{
-    color: inherit;
+    text-decoration-color: #000;
 }
 /*---SECTIONS---*/
 /*--->NAV*/
