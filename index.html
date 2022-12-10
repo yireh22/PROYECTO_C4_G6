@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto C4-G6 </title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
     <!-- CSS Bootstrap v5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
           rel="stylesheet" 
@@ -13,17 +15,19 @@
     <!-- CSS Main -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="">
-    <!--barnavegacion-->
-    <nav class="navbar navbar-expand navbar-main" style="background-color: #70ff8b;">
+  <body class="bg-ligth">
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand navbar-main bg-ligth">
       <div class="container">
         <!--Branding-->
       <a href="index.html" class="navbar-brand" target="_blank">
-        <img src="img/logopeque.png" alt="brand project">
+        <img src="./img/logo compa.jpg" alt="brand project"/>
       </a>
       <!--Boton-->
+      
       <button class="navbar-toggler" data-us-toggle="collapse" data-us-target="#mainNav" 
       aira-controls="mainNav" aria-expanded="flase" aira-lavel="Barra navegacion">
+   
       <span class="navbar-toggle-icon"></span>
       </button>
       <!--Items-->
@@ -32,15 +36,45 @@
           <a href="#secSolucion" class="nav-link"> Soluciones</a>
           <a href="#secAbout" class="nav-link">About</a>
           <a href="#secContact" class="nav-link">Contact</a>
-          <a href="#secSingInUp" class="nav-link active">Ingresar</a>
+          <button class="btn btn-outline-success ms-auto" type="submit"> INGRESAR </button>
         </div>
       </div>
       </div>
-
-
     </nav>
-    <footer>
-      
+    <div class="container">
+      <!--header-->
+      <header class="row align-items-center heaer-main">
+        <div class="col-md-7">
+          <!--Saludo-->
+          <h1 class="display-2">
+            <span class="d-block">Servicio pos</span>
+           </h1>
+          <!--explicaion-->
+          <p>Software de inventario y ventas para pymes</p>
+             </div>
+        <div class="col-8 col-md-4">
+          <div class="photo-frame position">
+            <img src="./img/imagen2.jpeg" alt="imagen 1" class="w-100"/>
+          </div>
+        </div>
+      </header>
+    </div>
+    <footer class="text-center p-4">
+     <!--Redes sociales -->
+      <div class="d-none d-md-block icons-socialmedia">
+        <!--facebook-->
+        <a href="#" target="_blank" class="bg-facebook">
+          <img src="./icons/facebook-letter-logo.png" alt="facebook"/>
+        </a>
+        <!--instagram-->
+        <a href="#" target="_blank" class="bg-instagram mx-5">
+          <img src="./icons/instagram.png" alt="instagram"/>
+        </a>
+        <!--github-->
+        <a href="#" target="_blank" class="bg-github">
+          <img src="./icons/github-logo.png" alt="Github"/>
+        </a>
+      </div>
     </footer>
     <!-- JS Bootstrap -->
     <script

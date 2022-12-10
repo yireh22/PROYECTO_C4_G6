@@ -1,17 +1,44 @@
-body{
-    background-color: blueviolet;
+root{
+    --color-blue-medium: #8fe2e4;
+    --color-purple: #632ce7;
+    --color-gray: #ccc;
+    --color-gray-medium: #f8f9fa;
+
 }
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
 /*GENERAL STYLE*/
-a{
-    text-decoration-color: #000;
-}
+
 /*---SECTIONS---*/
 /*--->NAV*/
 .navbar-brand>img{
-    width: 55px;
+    width: 250px;
 
 }
-.navbar-main .active{
-    text-decoration: underline wavy var(--color-purple);
+.navbar-style {
+    text-emphasis-color: black;
+}
+.header-main{
+    min-height: 100vh;
+}
+/*footer*/
+footer{
+    background-color: aquamarine;
+}
+.icons-socialmedia > a{
+    --size: 10px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.icons-socialmedia> a:hover{
+    filter: opacity(0.5);
 
 }
