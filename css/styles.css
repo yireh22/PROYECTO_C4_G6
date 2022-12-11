@@ -42,3 +42,10 @@ footer{
     filter: opacity(0.5);
 
 }
+.icon-service{
+    --box-size: 70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+    
+}
