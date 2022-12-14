@@ -1,31 +1,29 @@
-root{
-    --color-blue-medium: #8fe2e4;
-    --color-purple: #632ce7;
-    --color-gray: #ccc;
-    --color-gray-medium: #f8f9fa;
-
-}
 *{
     font-family: 'Quicksand', sans-serif;
+    color: #030c11;
 }
 
 /*GENERAL STYLE*/
+.btn-primary{ 
+    color: #ffffff;
+    font-family: 'Quicksand';
+}
+.container > .row{
+    margin-bottom: 3rem;
+}
 
 /*---SECTIONS---*/
 /*--->NAV*/
 .navbar-brand>img{
     width: 250px;
+}
 
-}
-.navbar-style {
-    text-emphasis-color: black;
-}
 .header-main{
     min-height: 100vh;
 }
 /*footer*/
 footer{
-    background-color: aquamarine;
+    background-color: #47ebd5;
 }
 .icons-socialmedia > a{
     --size: 10px;
@@ -35,17 +33,13 @@ footer{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .icons-socialmedia> a:hover{
     filter: opacity(0.5);
-
 }
 .icon-service{
     --box-size: 70px;
     width: var(--box-size);
     height: var(--box-size);
     padding: 10px;
-    
 }
