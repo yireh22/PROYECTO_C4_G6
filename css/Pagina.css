@@ -1,0 +1,12 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: #030c11;
+}
+
+.label{
+    background-color:#AFDFF1;
+    width: 30%; 
+    height: 30px;
+    text-align:center;
+    color:white;
+}
