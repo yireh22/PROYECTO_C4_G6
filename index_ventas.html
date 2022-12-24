@@ -1,126 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <img src="img/LOGO.jpeg" height="80px" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index_ventas.css" />
     <title>SISTEPOS</title>
 </head>
+
 <body>
-
-<!--CABECERA DE LA PAGINA-->
-    <header style="background-color: azure; width: 100%; height: 80px;">
-
-        
-<!--caja para el logo-->
-    <div style="background-color:dodgerblue; width: 100%; height: 50px;float:left;text-align:center">
-    <img src="img/logo compa.jpg" height="80px"/>
-    </div>
-
-      
-<div class="container">
-     <div class="row">
-     <img src="img_ventas/MANZANA.jpeg" height="80px"/>
-     <label>MANZANA</label>
-     <input type="button" value="+" />
-     <input type="button" value="-" />
-     <label type="text" value="" />
-     <column/>
-     </div>
-
-    <div class="row">
-    <img src="img_ventas/PEPINO.jpeg" height="80px"/>
-    <label>PEPINO</label>
-    <input type="button" value="+" />
-    <input type="button" value="-" />
-    <label type="text" value="" />
-    <column/>
-    </div>
-
-    <div class="row">
-        <img src="img_ventas/LECHUGA.jpeg" height="80px"/>
-        <label>LECHUGA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/TOMATE.jpeg" height="80px"/>
-        <label>TOMATE</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/ZANAHORIA.jpeg" height="80px"/>
-        <label>ZANAHORIA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/PAPAYA.jpeg" height="80px"/>
-        <label>PAPAYA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/DURAZNO.jpeg" height="80px"/>
-        <label>DURAZNO</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/ESPINACA.jpeg" height="80px"/>
-        <label>ESPINACA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/AUYAMA.jpeg" height="80px"/>
-        <label>AUYAMA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-
-    <div class="row">
-        <img src="img_ventas/PIÑA.jpeg" height="80px"/>
-        <label>PIÑA</label>
-        <input type="button" value="+" />
-        <input type="button" value="-" />
-        <label type="text" value="" />
-        <column/>
-        </div>
-</div>        
-}
-
-    <!--caja para el titulo-->
-
+    <header class="row align-items-center header-main">
 
     </header>
-   
+    <div class="container mt-4 shadow-lg p-3 mb-5  rounded ">
+        <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+        <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+        <table id="clientes" class="table mt-2 table-bordered table-striped">
+            <thead>
+                <tr class="text-center">
+                    <th>PRODUCTO</th>
+                    <th>PRECIO</th>
+                    <th>CANTIDAD</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <section id="Ventas" class="container">
+        
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img_ventas/MANZANA.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>MANZANA</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/PEPINO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>PEPINO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="img_ventas/DURAZNO.jpeg">
+                    <width=5%" />
+                    <width=5%" />
+                    <h4>DURAZNO</h4>
+                    <height="5px" />
+                    <width=5%" />
+                    <P>PRECIO $</P>
+                    <button id="btnCrear" type="button" class="btn btn-primary">AÑADIR</button>
+                    <button id="btnCrear" type="button" class="btn btn-primary">QUITAR</button>
+                    <label type="text" value="" />
+
+                </div>
+            </div>
+        
+    </section>
+
     
-        <footer style="background-color:blue ;">
-        <h3>PRODUCTOS</h3>
-        </header>
+</body>
 
-
-        <!--FORMULARIOS-->
-    </main>
+</html>

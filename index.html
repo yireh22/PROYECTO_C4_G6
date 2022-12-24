@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Systepos </title>
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-    <!-- CSS Bootstrap v5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
-          crossorigin="anonymous"
-    />
-    <!-- CSS Main -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body class="bg-ligth">
-    <!--BARRA DE NAVEGACION-->
-    <nav class="navbar navbar-expand navbar-main bg-ligth">
-      <div class="container">
-        <!--Branding-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Systepos </title>
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <!-- CSS Bootstrap v5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <!-- CSS Main -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-ligth">
+  <!--BARRA DE NAVEGACION-->
+  <nav class="navbar navbar-expand navbar-main bg-ligth">
+    <div class="container">
+      <!--Branding-->
       <a href="index.html" class="navbar-brand" target="_blank">
-        <img src="./img/logo compa.jpg" alt="brand project"/>
+        <img src="./img/logo compa.jpg" alt="brand project" />
       </a>
       <!--Items-->
       <div class="collapse navbar-collapse" id="mainNav">
@@ -29,94 +28,92 @@
           <a href="#secSolucion" class="nav-link"> Soluciones</a>
           <a href="#secAbout" class="nav-link">About</a>
           <a href="#secContact" class="nav-link">Contact</a>
-          <a href="index_loggin.html"class="btn btn-primary" type="submit" target="_blank"> INGRESAR </a>
+          <a href="index_loggin.html" class="btn btn-primary" type="submit" target="_blank"> INGRESAR </a>
         </div>
       </div>
-      </div>
-    </nav>
-    <div class="container">
-      <!--header-->
-      <header class="row align-items-center header-main">
-        <div class="col-md-7">
-          <!--explicaion-->
-          <h1 class="display-2" style="color: #030c11">
-            <span class="d-block fw-bold">Sistema Pos para negocios</span>
-          </h1>
-          <p>SYSTEPOS un software pensado para administrar tu negocio. 
-            Revisa las ventas, inventario, gastos, estadísticas y más
-            desde tu computador y/o smartphone.
-          </p>
-          <a href="index_loggin.html" type="button" class="btn btn-primary btn-lg">Pruébalo</a>
-          
-        </div>
-        <div class="col-8 col-md-4">
-          <div class="photo-frame position">
-            <img src="./img/imagen 5 .jpeg" alt="imagen 1" class="w-100"/>
-          </div>
-        </div>
-      </header>
-      <hr/>
-      <section class="row justify-content-around text-center" id="secSolucion">
-        <!--Titulo-->
-        <h2 class="col-12 display-4 text-capitalize mb-3">Nuestras Soluciones</h2>
-        <!--Tarjetas-->
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
-          <img src="./icons/ventas.png" alt="icon ser" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
-          icon-service"/>
-          <h3 class="text-capitalize">
-            Ventas
-          </h3>
-          <p class="text-muted"> Tienes la posibilidad de manejar tu negocio y tus ganancias</p>
-          <a href="index_ventas.html" class="btn btn-primary" target="_blank">vamos</a>
-        </article>
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
-          <img src="./icons/factu.png" alt="icon inventario" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
-          icon-service"/>
-          <h3 class="text-capitalize">
-            inventario
-          </h3>
-          <p class="text-muted">Heramientas que facilitan el manejo de tu inventario</p>
-          <a href="#" class="btn btn-primary">Vamos</a>
-        </article>
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
-          <img src="./icons/estadistica.png" alt="icon ser" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
-          icon-service"/>
-          <h3 class="text-capitalize">
-            Estadisticas
-          </h3>
-          <p class="text-muted">Observa tu crecimiento, que es lo que te va mejor</p>
-          <a href="#" class="btn btn-primary">vamos</a>
-        </article>
-        
-      </section>
-      <hr/>
-      
     </div>
-    <br>
-    <footer class="text-center p-4">
-     <!--Redes sociales -->
-      <div class="d-none d-md-block icons-socialmedia">
-        <!--facebook-->
-        <a href="#" target="_blank" class="bg-facebook">
-          <img src="./icons/facebook-letter-logo.png" alt="facebook"/>
-        </a>
-        <!--instagram-->
-        <a href="#" target="_blank" class="bg-instagram mx-5">
-          <img src="./icons/instagram.png" alt="instagram"/>
-        </a>
-        <!--github-->
-        <a href="#" target="_blank" class="bg-github">
-          <img src="./icons/github-logo.png" alt="Github"/>
-        </a>
+  </nav>
+  <div class="container">
+    <!--header-->
+    <header class="row align-items-center header-main">
+      <div class="col-md-7">
+        <!--explicaion-->
+        <h1 class="display-2" style="color: #030c11">
+          <span class="d-block fw-bold">Sistema Pos para negocios</span>
+        </h1>
+        <p>SYSTEPOS un software pensado para administrar tu negocio.
+          Revisa las ventas, inventario, gastos, estadísticas y más
+          desde tu computador y/o smartphone.
+        </p>
+        <a href="index_loggin.html" type="button" class="btn btn-primary btn-lg">Pruébalo</a>
+
       </div>
-    </footer>
-    <!-- JS Bootstrap -->
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
-            crossorigin="anonymous"
-    ></script>
-    <!-- JS Main -->
-    <script src="./js/script.js"></script>
-  </body>
+      <div class="col-8 col-md-4">
+        <div class="photo-frame position">
+          <img src="./img/imagen 5 .jpeg" alt="imagen 1" class="w-100" />
+        </div>
+      </div>
+    </header>
+    <hr />
+    <section class="row justify-content-around text-center" id="secSolucion">
+      <!--Titulo-->
+      <h2 class="col-12 display-4 text-capitalize mb-3">Nuestras Soluciones</h2>
+      <!--Tarjetas-->
+      <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
+        <img src="./icons/ventas.png" alt="icon ser" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
+          icon-service" />
+        <h3 class="text-capitalize">
+          Ventas
+        </h3>
+        <p class="text-muted"> Tienes la posibilidad de manejar tu negocio y tus ganancias</p>
+        <a href="index_ventas.html" class="btn btn-primary" target="_blank">vamos</a>
+      </article>
+      <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
+        <img src="./icons/factu.png" alt="icon inventario" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
+          icon-service" />
+        <h3 class="text-capitalize">
+          inventario
+        </h3>
+        <p class="text-muted">Heramientas que facilitan el manejo de tu inventario</p>
+        <a href="#" class="btn btn-primary">Vamos</a>
+      </article>
+      <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-4 fw-light">
+        <img src="./icons/estadistica.png" alt="icon ser" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3
+          icon-service" />
+        <h3 class="text-capitalize">
+          Estadisticas
+        </h3>
+        <p class="text-muted">Observa tu crecimiento, que es lo que te va mejor</p>
+        <a href="#" class="btn btn-primary">vamos</a>
+      </article>
+
+    </section>
+    <hr />
+
+  </div>
+  <br>
+  <footer class="text-center p-4">
+    <!--Redes sociales -->
+    <div class="d-none d-md-block icons-socialmedia">
+      <!--facebook-->
+      <a href="#" target="_blank" class="bg-facebook">
+        <img src="./icons/facebook-letter-logo.png" alt="facebook" />
+      </a>
+      <!--instagram-->
+      <a href="#" target="_blank" class="bg-instagram mx-5">
+        <img src="./icons/instagram.png" alt="instagram" />
+      </a>
+      <!--github-->
+      <a href="#" target="_blank" class="bg-github">
+        <img src="./icons/github-logo.png" alt="Github" />
+      </a>
+    </div>
+  </footer>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <!-- JS Main -->
+  <script src="./js/script.js"></script>
+</body>
 </html>
