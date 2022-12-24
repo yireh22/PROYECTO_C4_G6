@@ -5,35 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaginaPrincipal</title>
+    <link rel="stylesheet" href="/css/index_pagina.css"/>
 </head>
-<body>
-    <header style="background-color: #00b9f5; height: 150px; width: 100%;text-align:center;">
-        <h1>Pagina principal</h1>
-    <div style="background-color: white;width: 50%; height: 120px;text-align: center;">
-        <img src="img/logo systepos loggin.jpg"/>
-        
-    </div>
-        
-    </header>
-    <header style="background-color: white;width: 30%; height: 60px;text-align:right;">
-        <nav style="text-align: right;">
-            <ul>
-               <li><a href="#">Salir</a></li>
-               <li><a href="#">Soporte</a></li>  
-            </ul>
-        </nav> 
-    </header style="background-color:#47EBD5;width: 30%; height: 60px;text-align:right;">
-    <main>
-        <h2> Modulos</h2>
-        <label></label>
-        <input type="button" value="Ventas">
-        <label></label>
-        <input type="button" value="Inventario">
-        <label></label>
-        <input type="button" value="Estadisticas">
-    </main>
-    <fooster>
 
-    </fooster>
+<!--CABECERA DE LA PAGINA-->
+
+<header style="width:100%;
+    height:80px;
+    background-color:white;
+    float:left;">
+
+    <div style="background-color:#AC2533; 
+    height:60px; 
+    width:50%;
+    text-align: center;
+    margin-left: 20%;
+    float:left;">
+    <h1 class="Paginaprincipal">Pagina principal</h1>
+    </div>
+
+    <div style="background-color: white;
+    width:30%; 
+    height:60px;
+    text-align: right;
+    float:left"> 
+    <span class="material-symbols-outlined">
+        supervisor_account
+        </span>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Salir</a></li>  
+        </ul>
+    </nav>  
+    </div>
+</header>
+
+<body>
+<header style="width:100%;
+    height:250px;
+    background-color:white;
+    float:left;">
+    <div style="width:50%;
+        height:240px;
+        background:#132753;
+        float:left;
+        margin-left:5%;
+        text-align:center;
+        color:white;">
+    <h2 class="Titulo2">Modulos</h2>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index_ventas.html">Ventas</a></li>
+            <li><a href="#">inventario</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div style="width:40%;
+        height:240px;
+        background:white;
+        text-align:center;
+        padding-top:5%;
+        float:left;">
+        <img src="img/logo systepos loggin.jpg"/>  
+    </div>      
+</header>
 </body>
+
+<br /><br /><br />
+
+<fooster>
+    <div class="caja1">
+    <h3 style="color: white;">Systema SYSTEPOS</h3>
+    
+    </div>
+</fooster>
+<br /><br /><br />
 </html>

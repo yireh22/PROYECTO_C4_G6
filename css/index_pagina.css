@@ -1,0 +1,24 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+/*cabecera de la pagina*/
+
+.Paginaprincipal{
+   color: white;
+
+}
+
+span{
+    color:#AC2533;
+    font-size: 30px !important;
+}
+
+/*foster*/
+.caja1{
+    width: 100%;
+    height: 100px;
+    background-color:#47EBD5;
+    text-align:center;
+    float:left;
+}
+
